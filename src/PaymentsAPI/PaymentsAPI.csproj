@@ -7,4 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup><PackageReference Include="MassTransit.RabbitMQ" Version="8.3.6"/><PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+  </ItemGroup>
 </Project>
